@@ -3,11 +3,12 @@
     * Ternary trees
     * B/B+ trees
     * Explain commit/rollback
-    * Explain how the indexing works to maintain duplicate keys rdb?
-    * Explain how the indexing works to maintain primary keys rdb?
+    * Explain how the indexing works to maintain duplicate keys in rdb
+    * Explain how the indexing works to maintain primary keys in rdb
     * Practice to write a user defined hash function to initialize unordered_map
     * Implement trie class which takes hash function in the constructor
     * Implement ceil/floor functionality in BST
+    * upper_bound/lower_bound in sorted vector
     
 ### C++ 
     * When to use a virtual destructor
