@@ -18,6 +18,7 @@
     
 ### Memory
     * What is virtual memory
+    * What is swap space
     * How does one check how much stack memory is allocated to a process
     * How does one check how much heap memory is used by a process
     
