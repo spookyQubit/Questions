@@ -9,6 +9,7 @@
     * Implement trie class which takes hash function in the constructor
     * Implement ceil/floor functionality in BST
     * upper_bound/lower_bound in sorted vector
+    * COmplexity of delete/insert/search in trie
     
 ### C++ 
     * When to use a virtual destructor
