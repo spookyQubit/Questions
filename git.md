@@ -111,15 +111,10 @@ git commit
 ## ~~A fork repo + PR workflow~~
 
 * Fork repo
-    * [recommended] fork to [username]/[reponame] + clone + set upstream
+    * do manually
     ```
-    # uses /bb/feeds/feeds20-support/bin/git-bb-clone hub script
-    git bb-clone ficc/tconsvc
-    ```
-    * or do manually
-    ```
-    git clone ficc/tconsvc
-    git remote add upstream ficc/tconsvc
+    git clone spookyQubit/questions
+    git remote add upstream spookyQubit/questions
     git config --local --list
     git config remote.pushdefault origin
     git config branch.master.mergeoptions '--ff-only'
@@ -130,10 +125,10 @@ git commit
     ```
     git remote -v
     # should show:
-    # origin  git@bbgithub.dev.bloomberg.com:vslavov1/tconsvc.git (fetch)
-    # origin  git@bbgithub.dev.bloomberg.com:vslavov1/tconsvc.git (push)
-    # upstream        git@bbgithub.dev.bloomberg.com:ficc/tconsvc.git (fetch)
-    # upstream        git@bbgithub.dev.bloomberg.com:ficc/tconsvc.git (push)
+    # origin  https://github.com/spookyQubit/Questions.git (fetch)
+    # origin  https://github.com/spookyQubit/Questions.git (push)
+    # upstream        https://github.com/spookyQubit/Questions.git (fetch)
+    # upstream        https://github.com/spookyQubit/Questions.git (push)
 
     git pull
     ```
@@ -159,10 +154,10 @@ git rebase --continue
 ```
 * Push local branch to forked repo (origin)
 ```
-git push -u origin feature/calcrt-proxy
+git push -u origin feature/new-questions
 ```
 * Submit a pull request
-    * [recommended] on [BBGithub](http://bbgithub.dev.bloomberg.com)
+    * [recommended] on Github
     * or do manually: `git bb-pull-request`
 * [optional] Squash all commits in the pull request (optional and only if > 1 commit)
 ```
@@ -181,7 +176,7 @@ git push origin feature/calcrt-proxy --force
     git reset --hard HEAD@{N}
     ```
 * Merge the pull request
-    * [recommended] on [BBGithub](http://bbgithub.dev.bloomberg.com)
+    * [recommended] on BBGithub
     * or do manually
 * [recommended] Sync changes with local forked repo
 ```
@@ -191,11 +186,11 @@ git push
 ```
 * [recommended] Delete the local branch to avoid confusion
 ```
-git branch -d feature/calcrt-proxy
+git branch -d feature/new-questions
 ```
 * [recommended] Delete the remote branch
 ```
-git push origin :feature/calcrt-proxy
+git push origin :feature/new-questions
 # or
-git push origin --delete feature/calcrt-proxy
+git push origin --delete feature/new-questions
 ```
