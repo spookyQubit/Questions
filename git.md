@@ -134,7 +134,7 @@ git commit
     ```
 * Create feature/bug branch, check it out, and set to track upstream
 ```
-git checkout -b feature/calcrt-proxy upstream/HEAD
+git checkout -b feature/new-questions upstream/HEAD
 ```
 * Do some work
 ```
