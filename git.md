@@ -23,7 +23,7 @@ git config --local --edit
         * `git fetch origin master`
         * `git rebase origin/master`
     * `git cherry-pick`: instead do `git rebase` or `git rebase -i`
-    * forking (manually or using `git bb-clone`): if you own the code, just create a feature branch
+    * forking (manually): if you own the code, just create a feature branch
     * release/bugfix/long-lived branches: use short-lived branches & tag
     * squashing all PR commits into one
 * workflow
