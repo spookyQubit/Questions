@@ -176,7 +176,7 @@ git push origin feature/calcrt-proxy --force
     git reset --hard HEAD@{N}
     ```
 * Merge the pull request
-    * [recommended] on BBGithub
+    * [recommended] on Github
     * or do manually
 * [recommended] Sync changes with local forked repo
 ```
